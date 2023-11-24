@@ -11,22 +11,16 @@ h1{
     color: #F9FAF8;
 } 
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
 ul {
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
     display: flex;
 }
 
-
 button {
-    color: #ffffff;
+    color: #f9faf8;
     font-weight: bold;
     background-color: #3883f6;
     width: 100px;
@@ -35,39 +29,38 @@ button {
     border-radius: 7px;
 }
 
-img {
-    margin: 30px;
-    max-width: 400px;
-    max-height: 400px;
-}
 /* First main section of the page. */
 .preface {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 0 0 40px 40px;
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    align-items: center;
 }
 
-.navbar, .intro {
-    color: #ffffff;
+.header, .intro {
     display: flex;
-    flex-direction: row;
+    margin-top: 5px; 
+    height: auto;
     justify-content: center;
-    
+    align-items: center;
 }
 
-.navbar {
-    margin-top: 5px;
-    gap: 220px;   
+.header {
+    width: 100%;
+    gap: 15%;
+}
+
+img {
+    margin: 30px;
+    width: 425px;
+    height: 200px;
 }
 
 .logo {
-    position: relative;
-    left: -40px;
     font-size: 24px;
-    color: #f9faf8;
-    padding: 10px;
 }
-
 
 /* Second main section of the page. */
 .choices {
@@ -80,12 +73,11 @@ img {
 .choice-header {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
 }
 
 .boxes {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     flex: 1;
     gap: 30px;
@@ -99,7 +91,6 @@ img {
     max-height: auto;
     text-align: center;
     align-items: center;
-    /* flex-wrap: wrap; */
 }
 
 .square {
@@ -125,11 +116,9 @@ img {
 .quote {
     font-size: 36px;
     font-weight: lighter;
-    
     font-style: italic;
     color: #7589a5;
     max-width: 750px;
-    
 }
 
 #author {
@@ -139,7 +128,6 @@ img {
     font-style:normal;
     font-weight: bold;
 }
-
 
 .sign-up {
     display: flex;
@@ -155,9 +143,7 @@ img {
     align-items: center;
     background-color: #3883f6;
     margin: 60px;
-    padding: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 30px 70px 30px 70px;
     width: 800px;
     border-radius: 7px;
 }
@@ -184,7 +170,4 @@ img {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-    
 }
-
-
